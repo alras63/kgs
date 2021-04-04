@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+	<script type="text/javascript" src="wgo/wgo.min.js"></script>
+    <script type="text/javascript" src="wgo/wgo.player.min.js"></script>
+    <link type="text/css" href="wgo/wgo.player.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container" style="padding-top: 30px; padding-bottom: 30px">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="#">Игра ГО</a>
+                    <span class="header__logo-description">
+                        лучшие игроки по мнению kgsgo
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <!-- <div class="board">
+                <div class="board__card">
+                    <div class="board__card-header">
+                        <img class="board__card-icon" src="assets/card-icon.png" alt="icon">
+                        <span>1 место </span>
+                    </div>
+                    <div class="board__card-body">
+                        <span class="player-name">
+                            Игрок: <span>fsdfsdf</span>
+                        </span>
+                        <span class="player-statistics">
+                            Количество партий: <span>1000</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="board__card">
+                    <div class="board__card-header">
+                        <img class="board__card-icon" src="assets/card-icon.png" alt="icon">
+                        <span>1 место </span>
+                    </div>
+                    <div class="board__card-body">
+                        <span class="player-name">
+                            Игрок: <span>fsdfsdf</span>
+                        </span>
+                        <span class="player-statistics">
+                            Количество партий: <span>1000</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="board__card">
+                    <div class="board__card-header">
+                        <img class="board__card-icon" src="assets/card-icon.png" alt="icon">
+                        <span>1 место </span>
+                    </div>
+                    <div class="board__card-body">
+                        <span class="player-name">
+                            Игрок: <span>fsdfsdf</span>
+                        </span>
+                        <span class="player-statistics">
+                            Количество партий: <span>1000</span>
+                        </span>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="score">
+                <div class="score__title">ТОП-100</div>
+                <div class="table__wrapper">
+                    <table class="score__table simple-little-table" id="gameTable" cellspacing="0">
+                        <thead>
+							<tr>
+								<th rowspan="2">
+									Номер игры пользователя
+								</th>
+								<th rowspan="2">
+									Имя игрока 1
+								</th>
+								<th rowspan="2">
+									Имя игрока 2
+								</th>
+								<th rowspan="2">
+									Цвет камней игрока 1
+								</th>
+								<th rowspan="2">
+									Цвет камней игрока 2
+								</th>
+								<th rowspan="2">
+									Ссылка на просмотр игры
+								</th>
+								<th colspan="4">
+									Дополнительная аналитика игры
+								</th>
+							</tr>
+							<tr>
+								<th>
+									Начало
+								</th>
+								<th>
+									Продолжительность
+								</th>
+								<th>
+									Размер
+								</th>
+								<th>
+									Результат
+								</th>
+							</tr>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <!-- <div class="pagination">
+                <button class="page page--active">
+                    1
+                </button>
+                <button class="page">
+                    2
+                </button>
+                <button class="page">
+                    3
+                </button>
+                <button class="page">
+                    4
+                </button>
+                <button class="page">
+                    5
+                </button>
+                <button class="page">
+                    6
+                </button>
+                <button class="page">
+                    7
+                </button>
+                <button class="page">
+                    8
+                </button>
+                <button class="page">
+                    9
+                </button>
+                <button class="page">
+                    10
+                </button>
+            </div> -->
+        </div>
+    </main>
+	
+	<div id="gamePole">
+        <div class="close">
+            &times;
+        </div>
+		<div class="gamepole" data-wgo="game.sgf" style="width: 700px">
+		  Sorry, your browser doesn't support WGo.js. Download SGF <a href="game.sgf">directly</a>.
+		</div>
+	</div>
+	
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
